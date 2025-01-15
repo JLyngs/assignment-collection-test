@@ -32,12 +32,12 @@ public class ArrayCollection<T> : BaseCollection<T>
 
     public override T FirstObject()
     {
-        return array[0];
+        return array.First();
     }
 
     public override T LastObject()
     {
-        return array[^1];
+        return array.Last();
     }
 
     public override int Count()
